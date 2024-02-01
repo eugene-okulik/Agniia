@@ -3,7 +3,7 @@ my_dict = {
     'list': [1, 4, 'text2', False, 2.56],
     'dict': {'one': 'value', 'two': False, 'three': (1, 2, 3), 'four': 5, 'five': True},
     'set': {1, 3, 6, 7, None, 'text', False, 2.42, 3, 7}
-          } 
+}
 print(my_dict['tuple'][-1])  # выведите на экран последний элемент
 my_dict['list'].append(67)  # добавьте в конец списка еще один элемент
 poped = my_dict['list'].pop(1)  # удалите второй элемент списка
