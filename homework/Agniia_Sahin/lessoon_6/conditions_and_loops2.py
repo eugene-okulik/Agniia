@@ -1,4 +1,5 @@
 numbers = range(1, 101)
+
 for number in numbers:
     if number % 3 == 0:
         print('fuzz')
@@ -8,4 +9,5 @@ for number in numbers:
         print('FuzzBuzz')
     else:
         print(number)
+
 
