@@ -8,3 +8,4 @@ for number in numbers:
         print('FuzzBuzz')
     else:
         print(number)
+        
