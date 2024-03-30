@@ -1,5 +1,5 @@
 def fibonacci(n):
-    if type(n) != int or n < 0:
+    if type(n) is not int or n < 0:
         print("invalid value")
         return
     elif n == 0:
