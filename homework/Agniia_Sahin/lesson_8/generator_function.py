@@ -7,4 +7,3 @@ if bonus:
     print(f"{salary}, {bonus} - $'{salary+bonus_amount}'")
 else:
     print(f"{salary}, {bonus} - $'{salary}'")
-

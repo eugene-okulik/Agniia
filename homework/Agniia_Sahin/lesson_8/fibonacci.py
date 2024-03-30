@@ -22,4 +22,3 @@ print(number_5)
 print(number_200)
 print(number_1000)
 print(number_100000)
-
