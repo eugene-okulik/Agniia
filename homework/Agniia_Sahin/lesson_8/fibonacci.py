@@ -25,4 +25,4 @@ for number in fibonacci():
     elif count == 100000:
         print(number)
         break
-    
+
