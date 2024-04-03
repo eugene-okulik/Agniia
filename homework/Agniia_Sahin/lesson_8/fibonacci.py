@@ -10,7 +10,7 @@ def fibonacci():
         yield predposlednee
         old_predposlednee = predposlednee
         predposlednee = poslednee
-        poslednee += old_predposlednee  
+        poslednee += old_predposlednee
 
 
 count = 0
@@ -24,4 +24,5 @@ for number in fibonacci():
         print(number)
     elif count == 100000:
         print(number)
-        break        
+        break
+    
